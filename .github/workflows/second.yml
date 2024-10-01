@@ -1,6 +1,6 @@
+#Challenge to print a date in 4 jobs, whereas fourth job is dependent on last 3 jobs.
 name: second
 on: push
-#4jobs (print date)1.ubuntu-latest2. windows-latest 3. macos-latest 4. depends on jobs 1,2,3.
 jobs:
   job1:
     name: First job
